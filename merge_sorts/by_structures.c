@@ -115,14 +115,12 @@ void main () {
                         p2 += 1;
                         p1 += 1;
                     } else {
-                        // max_index += 1;
                         add_struct(arr[p1]);
                         arr[p1] = next_struct();
                         p1 += 1;
                     }
                 } else {
                     if (arr[p1] > arr[p2]) {
-                        // max_index += 1;
                         add_struct(arr[p1]);
                         arr[p1] = arr[p2];
                         p2 += 1;
