@@ -7,7 +7,6 @@ class node:
 class BinaryTree:
     def __init__(self, root=None):
         self.root = root
-        self.lar_len = []
     
     def inorder(self):
         ret = []
